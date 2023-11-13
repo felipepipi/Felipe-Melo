@@ -1,0 +1,40 @@
+// Primeiro Dia de Aula. 
+
+//A base será feita em Dolar para a conversão de moedas.
+
+        var ValorDoDolar = 1;
+        var CotacaoDoDolar = 4.93;
+        var NomeID = 'Alice';
+
+// Aqui comeca a convercao
+
+
+    var ValorEmReal = (CotacaoDoDolar*ValorDoDolar).tofixed(2);
+    alert('Olá'+ NomeID +', este é o valor do Bitcoin: '+'$' + ValorEmReal);
+
+
+// Valor em bitcoins
+
+        var NomeID = 'Alice';
+        var ValorBitcoin = 1;
+        var CotacaodoBitcoin = 36818.20;
+
+// Aqui comeca a convercao
+
+    var ValorEmBitcoin = (CotacaodoBitcoin*ValorBitcoin).toFixed (2);
+    alert('Olá '+ NomeID +', este é o valor do Bitcoin: '+'$' + ValorEmBitcoin);
+
+// Valor em Anos Luz
+    
+        var VelocidadeDaLuzEmMetros = 299792458;
+        var VelocidadeDaLuzEmKm = 	2997924;
+        var DistanciaAoPlaneta = 1;
+        var NameID = 'Felipe';
+
+// Aqui comeca a convercao
+
+    ValorEmKm = DistanciaAoPlaneta*VelocidadeDaLuzEmKm;
+    ValorEmMetros = DistanciaAoPlaneta*VelocidadeDaLuzEmMetros;
+    alert('Olá '+ NameID +'. Os '+DistanciaAoPlaneta+' anos luz, equivalem à ' + ValorEmKm +' Km/h e à '+ ValorEmMetros+' M/s.' );
+
+// Final do Primeiro Dia. 
